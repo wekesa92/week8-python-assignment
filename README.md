@@ -18,3 +18,27 @@ This project explores the **CORD-19 metadata.csv dataset** using Pandas, Matplot
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+
+Run Jupyter Notebook
+jupyter notebook notebooks/analysis.ipynb
+
+3. Run Streamlit App
+streamlit run app/app.py
+
+Dataset
+
+CORD-19 metadata: Kaggle Link
+
+Expected Outcomes
+
+Cleaned dataset
+
+Visualizations of research trends
+
+Interactive dashboard for exploration
+
+
+---
+
+✅ With this scaffold, you can **upload to GitHub** and **submit your repo link**.  
+Would you like me to also show you **how to deploy the Streamlit app onlin
