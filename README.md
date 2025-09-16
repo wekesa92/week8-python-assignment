@@ -1,15 +1,20 @@
 # CORD-19 Data Explorer
 
-A project exploring COVID-19 research papers using Pandas, Matplotlib, and Streamlit.
+This project explores the **CORD-19 metadata.csv dataset** using Pandas, Matplotlib, and Streamlit.
 
-## Steps
-1. Load and clean the CORD-19 metadata.csv
-2. Perform exploratory data analysis
-3. Visualize trends (publications over years, top journals, frequent title words)
-4. Deploy interactive dashboard with Streamlit
+## Objectives
+- Load and clean real-world research data
+- Perform exploratory analysis
+- Visualize trends and patterns
+- Build a simple interactive Streamlit dashboard
+
+## Project Structure
+- `data/` → dataset (metadata.csv)
+- `notebooks/` → Jupyter notebook for exploration
+- `app/` → Streamlit application
+- `requirements.txt` → dependencies
 
 ## How to Run
-### 1. Jupyter Notebook
+### 1. Install dependencies
 ```bash
-jupyter notebook notebooks/analysis.ipynb
-
+pip install -r requirements.txt
